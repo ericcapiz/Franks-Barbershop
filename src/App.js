@@ -5,6 +5,7 @@ import Testimonial from './components/Testimonials/Testimonial';
 import  Contact  from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import Gallery from './components/Gallery/Gallery';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Contact />
       </Route>
       </Switch>
+      {/* <Footer /> */}
     </div>
   );
 }
